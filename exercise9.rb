@@ -1,9 +1,9 @@
 def max_profit(prices)
-  total = []
+  total = 0
    prices.each_with_index do |e,i|
      if prices[i+1].to_i > prices[i].to_i
-        total + prices[i+1].to_i - prices[i].to_i
-        p total
+        total += prices[i+1].to_i - prices[i].to_i
+        puts total
       end
     end
 end

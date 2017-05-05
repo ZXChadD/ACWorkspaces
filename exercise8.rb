@@ -10,3 +10,5 @@ end
 
 single_number([1,1,1,2,2,2,3,3,3,4])
 single_number([0,0,0,4])
+
+# I know this method is not constant space
