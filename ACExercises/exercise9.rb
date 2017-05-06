@@ -1,3 +1,5 @@
+# assuming that the prices in the array are real time updates of stock prices at a specific time
+
 def max_profit(prices)
   total = 0
    for e,i in prices.each_with_index
