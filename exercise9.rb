@@ -4,7 +4,7 @@ def max_profit(prices)
   total = 0
    for e,i in prices.each_with_index
      if prices[i+1].to_i > prices[i].to_i
-        total += prices[i+1].to_i - prices[i]*2.to_i
+        total += prices[i+1].to_i - prices[i].to_i
       end
     end
     puts total
