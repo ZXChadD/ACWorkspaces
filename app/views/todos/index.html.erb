@@ -1,0 +1,20 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th colspan="3">Done</th>
+  </tr>
+  <tr>
+<% @todos.each do |todo| %>
+
+    <td><%= todo.input %></td>
+    <td><%= todo.done %></td>
+
+    <td class = "link_to"><%= link_to 'Edit', edit_todo_path(todo) %></td>
+    <td class = "link_to"><%= link_to 'Delete', todo_path(todo), method: :delete, data:{ confirm: "Are you sure?" } %></td>
+
+  </tr>
+<% end %>
+  <tr>
+    <td colspan="4" class = "link_to" class="new"><%= link_to 'New To Do', new_todo_path %></td>
+  <tr>
+</table>

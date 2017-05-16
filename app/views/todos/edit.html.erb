@@ -1,0 +1,11 @@
+<tr>
+<%= form_for @todo do |f| %>
+   <%= f.label :input, "To do" %>
+   <%= f.text_field :input %>
+
+   <%= f.label :done, "Done" %>
+   <%= f.text_field :done %>
+
+   <%= f.submit "Update" %>
+<% end %>
+</tr>

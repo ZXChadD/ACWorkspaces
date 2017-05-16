@@ -1,0 +1,30 @@
+// Place all the styles related to the todos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+table{
+  margin: auto;
+  margin-top: 15%;
+  font-size: 3em;
+  text-align: left;
+}
+
+th {
+  font-family: fantasy;
+  font-weight: 1500;
+  color: #019ad2;
+}
+
+tr {
+  font-family: helvetica;
+  width: 10em;
+
+}
+td {
+  width: 6em;
+  height:2.5em;
+}
+
+.link_to{
+  font-size: 1em;
+  font-family: fantasy;
+}

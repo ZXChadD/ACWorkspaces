@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  input: MyText
+  done: false
+
+two:
+  input: MyText
+  done: false
