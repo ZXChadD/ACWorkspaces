@@ -1,0 +1,19 @@
+// Place all the styles related to the photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+td {
+  vertical-align: middle;
+  text-align: center;
+  background: rgba(#e7c0d0, 0.08);
+  font-size: 1.5em;
+  font-family: Lora;
+}
+
+th {
+  font-size: 2em;
+}
+
+table {
+  border: 1px solid black;
+}
